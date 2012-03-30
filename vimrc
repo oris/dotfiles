@@ -3,8 +3,8 @@ syntax on
 
 " gui options
 set guioptions-=T
-set guifont=Menlo:h14
-colorscheme desert
+"set guifont=Menlo:h14
+colorscheme molokai
 
 set nocompatible
 set number
@@ -67,4 +67,12 @@ map ,L <C-w>L
 
 "autocmd VimEnter * NERDTree
 
-colorscheme molokai
+nnoremap Q gqap
+vnoremap Q gq
+
+if has("autocmd") && exists("+omnifunc")
+	autocmd Filetype *
+		\  if &omnifunc == "" |
+		\	setlocal omnifunc=syntaxcomplete#Complete |
+		\  endif
+endif
