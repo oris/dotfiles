@@ -1,4 +1,4 @@
-let g:mapleader=','
+" vimrc for coding
 
 " Because Escape is too far
 inoremap ,, <Esc>
