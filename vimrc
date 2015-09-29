@@ -1,7 +1,7 @@
 " vimrc for coding
 
 " Because Escape is too far
-inoremap ,, <Esc>
+inoremap <C-L> <Esc>
 
 call plug#begin('~/.vim/plugged')
 
