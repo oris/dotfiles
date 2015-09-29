@@ -9,7 +9,7 @@ Plug 'tpope/vim-sensible'
 
 Plug 'mileszs/ack.vim'
 Plug 'bling/vim-airline'
-Plug 'Townk/vim-autoclose'
+Plug 'rstacruz/vim-closer'
 Plug 'mattn/emmet-vim'
 Plug 'kballard/vim-fish'
 Plug 'tpope/vim-fugitive'
