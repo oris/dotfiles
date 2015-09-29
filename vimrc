@@ -26,7 +26,6 @@ Plug 'tpope/vim-surround'
 Plug 'scrooloose/syntastic'
 Plug 'marijnh/tern_for_vim', { 'do': 'npm install' }
 Plug 'Valloric/YouCompleteMe'
-Plug 'majutsushi/tagbar'
 
 call plug#end()
 
